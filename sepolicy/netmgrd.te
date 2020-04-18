@@ -1,4 +1,0 @@
-allow netmgrd self:capability dac_override;
-allow netmgrd netd_service:service_manager find;
-allow netmgrd dnsresolver_service:service_manager find;
-allow netmgrd servicemanager:binder call;

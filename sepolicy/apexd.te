@@ -1,2 +1,0 @@
-allow apexd device:file { open write };
-

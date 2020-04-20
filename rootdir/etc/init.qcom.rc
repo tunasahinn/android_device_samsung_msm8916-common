@@ -30,11 +30,6 @@ import /vendor/etc/init/hw/init.qcom.usb.rc
 #import init.carrier.rc	#import /vendor/etc/init/hw/init.carrier.rc
 
 on init
-<<<<<<< HEAD
-=======
-    # Shims
-    export LD_SHIM_LIBS /system/lib/libcrypto.so|libboringssl-compat.so:/system/lib/libsec-ril.so|libshim_secril.so:/system/vendor/lib/libizat_core.so|libshim_gps.so
->>>>>>> f8c72c3... libshims: add libizat_core shim
 
 on early-init
     mount debugfs debugfs /sys/kernel/debug
